@@ -1,0 +1,11 @@
+gamma	0.55
+dt_init	0.01
+dt_min	0.00001
+dt_max	864
+dP_max	1000
+dPc_max	1000
+dt_decrease	0.7
+dt_increase	1.3
+upw_water	1
+upw_gas	0.5
+reactions	true

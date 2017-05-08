@@ -1,0 +1,2 @@
+Aq_source	C_CO2	C_Na	C_Cl	C_Ca	C_pH	c_pe	C_Ntg
+1	0.2	0.2	0.2	0.2	0.2	0.2	0.2

@@ -1,0 +1,2 @@
+Gas_source	X_CO2	X_Ntg
+1	1	0

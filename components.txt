@@ -1,0 +1,8 @@
+name	volatile	D	MW	master_species
+CO2	1	5.00E-06	0.04401	C(4)
+Na	0	5.00E-06	0.02299	Na
+Cl	0	5.00E-06	0.03545	Cl
+Ca	0	5.00E-06	0.04008	Ca
+pH	0	5.00E-06	0.00101	pH
+pe	0	5.00E-06	0.00101	pe
+Ntg	1	5.00E-06	0.028	Ntg

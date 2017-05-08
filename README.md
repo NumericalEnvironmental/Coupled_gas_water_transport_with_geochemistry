@@ -11,7 +11,7 @@ This code is an enhanced version of my gas_water_trans.jl script, https://github
 
 In addition to the input files required by the gas_water_trans.jl script, this code also requires the minerals.dat file, which defines the initial mineral assemblage for each node, to be present in the folder. Set the chemrxt boolean flag at the end of the knobs.txt file to enable the geochemical modeling (and be prepared for the model to run much slower ...).
 
-This is just a test/demo prototype and has undergone only very limited testing. It may contain some bugs that could manifest in certain complex or large reactive transport problems. It will also likely be very slow for larger problems; I definitely need to do some more work with time stepping. A little more discussion is provided in my blog, (link coming shortly).
+This is just a test/demo prototype and has undergone only very limited testing. It may contain some bugs that could manifest in certain complex or large reactive transport problems. It will also likely be very slow for larger problems; I definitely need to do some more work with time stepping. A little more discussion is provided in my blog, https://numericalenvironmental.wordpress.com/2017/05/08/two-phase-reactive-transport-model-development-with-julia-part-3-coupling-with-a-geochemical-model/.
 
 Again, please note that the IPhreeqcCOM library MUST be present on the Windows machine where this script is run. In addition, the PyCall package for Julia must also be installed.
 

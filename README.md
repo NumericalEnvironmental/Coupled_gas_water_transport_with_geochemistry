@@ -1,6 +1,8 @@
 # Coupled_gas_water_transport_with_geochemistry
 A two-phase (water + gas) reactive transport model, written in Julia, that also simulates geochemical reactions between water-gas-mineral phases via a link with PHREEQC.
 
+![Preview](https://numericalenvironmental.files.wordpress.com/2017/05/figure_2.jpg?w=648&h=486)
+
 This code is an enhanced version of my gas_water_trans.jl script, https://github.com/NumericalEnvironmental/Coupled_gas_water_flow_and_transport_porous_media, with an interface with PHREEQC added to model equilibrium geochemical reactions between the water and gas phases in each cell, in the (possible) presence of a mineral phase assemblage. Julia version 0.5 or greater is required. In addition to some minor modifications to the gas_water_trans.jl module, this new code contains two additional modules:
 
 * geochemical_module.jl - contains routines to write input for PHREEQC, run PHREEQC (via the IPhreeqcCOM library, https://wwwbrr.cr.usgs.gov/projects/GWC_coupled/phreeqc/, which limits the model to Windows machines for the time being), and read PHREEQC's output
